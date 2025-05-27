@@ -1,0 +1,8 @@
+gym[classic_control]
+torch
+stable-baselines3
+learn2learn
+matplotlib
+seaborn
+scikit-learn
+numpy
