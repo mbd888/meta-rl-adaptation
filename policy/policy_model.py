@@ -11,5 +11,5 @@ class MetaConditionedPolicy(nn.Module):
         )
 
     def forward(self, obs, context):
-        x = torch.cat([obs, context], dim=-1)  # concat state and latent vector
+        x = torch.cat([obs, context], dim=-1)
         return self.policy_net(x)
